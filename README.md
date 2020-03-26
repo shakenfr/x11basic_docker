@@ -1,7 +1,7 @@
 # x11basic_docker
 Docker en for x11 basic
 
-This Docker file is based on the 1..26 version of X11-basic (see this great project on https://sourceforge.net/projects/x11-basic/
+This Docker file is based on the last stable version of X11-basic (see this great project on https://sourceforge.net/projects/x11-basic/ and https://github.com/kollokollo/X11Basic)
 
 
 The docker image is on docker hub : https://hub.docker.com/repository/docker/shakenfr/x11basic/tags?page=1
@@ -19,7 +19,7 @@ You can use your prefered editor to write your .bass program files. After you ne
 You can build an docker image like :
 
 sudo docker build <YOUR_DOCKER_FILE_FOLDER> -t <YOUR_REPO_NAME_AND_TAG> 
-exemple : sudo docker build . -t shakenfr/x11basic:0.1
+exemple : sudo docker build . -t shakenfr/x11basic:0.2
 
 You can pull the image like this :
 sudo docker pull shakenfr/x11basic:latest
